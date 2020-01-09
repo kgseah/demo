@@ -17,6 +17,7 @@ spec:
       containers:
       - name: helloworld
         image: devopssg.azurecr.io/kgseah/demo:uat
+        imagePullPolicy: Always
         resources:
           requests:
             cpu: 100m
