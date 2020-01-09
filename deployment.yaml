@@ -14,6 +14,7 @@ spec:
     spec:
       nodeSelector:
         "beta.kubernetes.io/os": linux
+      terminationGracePeriodSeconds: 30
       containers:
       - name: helloworld
         image: devopssg.azurecr.io/kgseah/demo:master
