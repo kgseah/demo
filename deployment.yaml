@@ -16,7 +16,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: helloworld
-        image: devopssg.azurecr.io/kgseah/demo:latest
+        image: devopssg.azurecr.io/kgseah/demo:uat
         resources:
           requests:
             cpu: 100m
