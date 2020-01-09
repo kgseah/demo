@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: helloworld
-        image: devopssg.azurecr.io/kgseah/demo:master
+        image: devopssg.azurecr.io/master:latest
         imagePullPolicy: Always
         resources:
           requests:
